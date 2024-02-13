@@ -30,8 +30,8 @@ Follow these steps to set up your local environment for the Natours app:
 1. **Clone the Repository:**
    Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/alin00r/natours.git
-   cd Task-Manager-API
+   git clone https://github.com/alin00r/Blog-API.git
+   cd Blog-API
    ```
 2. **Install Dependencies:**
    Run the following command to install all the required dependencies:
