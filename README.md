@@ -51,7 +51,7 @@ Follow these steps to set up your local environment for the Natours app:
       ```dotenv
 
       # MongoDB Configuration
-      MONGO_URI_ATLAS=your-mongodb-database-url
+      MONGO_URI=your-mongodb-database-url
 
       # JSON Web Token Configuration
       JWT_SECRET=your-json-web-token-secret
@@ -105,7 +105,7 @@ Follow these steps to set up your local environment for the Natours app:
 During API development, I use `Postman` for handling/testing all endpoints.
 
 - Postman collection/documentation is available on this link [click here](https://documenter.getpostman.com/view/28708948/2sA2r53QcQ)
-- Base URL endpoints: `http://127.0.0.1:3000/` or `http://localhost:8000/`
+- Base URL endpoints: `http://127.0.0.1:8000/` or `http://localhost:8000/`
 
 
 
