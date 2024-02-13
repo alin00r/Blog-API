@@ -40,7 +40,7 @@ Follow these steps to set up your local environment for the Natours app:
    ```
 3. **Configure Environment Variables:**
 
-   Before you can run the Natours app, you need to set up your environment variables. These variables store sensitive information required for the app to function properly. Follow these steps to configure your environment variables:
+   Before you can run the Blog-API app, you need to set up your environment variables. These variables store sensitive information required for the app to function properly. Follow these steps to configure your environment variables:
 
    1. **Create a `.env` File:**
       In the root directory of the app, create a file named `.env`.
@@ -59,6 +59,7 @@ Follow these steps to set up your local environment for the Natours app:
       ```
 # Endpoints
 ## Auth Endpoints
+
 ```POST``` ```/users/signup```
 
 ```POST``` ```/users/login```
@@ -66,7 +67,9 @@ Follow these steps to set up your local environment for the Natours app:
 ```POST``` ```/users/logout```
 
 ```POST``` ```/users/logoutAll```
+
 ## Users Endpoints
+
 ```GET``` ```/users/me```
 
 ```DELETE``` ```/users/me```
@@ -80,7 +83,9 @@ Follow these steps to set up your local environment for the Natours app:
 ```DELETE``` ```/upload/me/avatar```
 
 ```GET``` ``` /users/:username```
+
 ## Blog Endpoints
+
 ```POST``` ```/search```
 
 ```POST``` ```/blog```
